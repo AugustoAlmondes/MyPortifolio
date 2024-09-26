@@ -1,0 +1,29 @@
+.projetos
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 80px;
+    min-height: 100vh;
+    background-color: rgb(7, 16, 32);
+}
+
+.projetos .titulo-projetos{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.projetos .titulo-projetos h1{
+    margin-left: 20px;
+    font-size: 40px;
+    display: inline;
+}
+
+.container-projetos
+{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 25%));
+}

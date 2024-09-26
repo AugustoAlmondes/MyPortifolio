@@ -3,7 +3,7 @@ import Imagem from '../assets/fundoBV.png'
 import Avatar from '../assets/94472197.jpeg'
 
 import RedesBotaao from '../components/RedesBotao.jsx'
-// import Titulo from '../components/Titulo.jsx'
+// import Titulo from '../components/Titulo.jsx' 
 
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp} from 'react-icons/fa'
 import { MdOutlineEmail } from 'react-icons/md'
