@@ -1,5 +1,9 @@
-.projeto
+.link-projeto
 {
+    text-decoration: none;
+}
+
+.projeto {
     height: 150px;
     width: 300px;
 
@@ -16,14 +20,13 @@
     flex-direction: column;
 }
 
-.projeto:hover
-{
+.projeto:hover {
     cursor: pointer;
     box-shadow: 0 0 10px #425e9b,
-    0 0 30px #425e9bd3;
+        0 0 30px #425e9bd3;
 }
 
-.titulo-projeto{
+.titulo-projeto {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,47 +36,48 @@
     font-weight: bold;
 }
 
-.lista-linguagem{
+.lista-linguagem {
     display: flex;
     flex-wrap: wrap;
 }
 
-.lista-linguagem li{
+.lista-linguagem li {
     color: white;
     margin-left: 20px;
-    list-style:none;
+    list-style: none;
 }
 
-.lista-linguagem li::before
-{
+.lista-linguagem li::before {
     content: '';
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    display:inline-block;
+    display: inline-block;
     position: relative;
     top: -2px;
     left: -10px;
 }
 
-.JavaScript::before
-{
+.JavaScript::before {
     background-color: yellow;
 }
 
-.HTML::before
-{
+.HTML::before {
     background-color: red;
 }
 
-.CSS::before{
+.CSS::before {
     background-color: blue;
 }
 
-.C::before{
+.C::before {
     background-color: rgb(161, 161, 161);
 }
 
-.Python::before{
+.Python::before {
     background-color: rgb(36, 147, 6);
+}
+
+.Jupyter::before {
+    background-color: rgb(255, 157, 0);
 }

@@ -29,8 +29,8 @@ export default function BemVindo() {
                         <div className="texto-conteudo">Aqui você encontrará uma coleção de trabalhos que refIetem minha jornada, habilidades e paixão pelo que faço. Seja no desenvolvimento de soluções criativas, projetos inovadores ou na aplicação prática de conhecimentos técnicos, cada projeto representa um passo na evolução da minha carreira e meu compromisso com a excelência. Navegue à vontade e descubra mais sobre minha visão, processos e experiências que moldam minha trajetória profissional.</div>
 
                         <div className="redes-conteudo">
-                            <RedesBotaao IconComponent={FaWhatsapp} url={"wa.me/+5589988083671"}/>
-                            <RedesBotaao IconComponent={MdOutlineEmail} url={"augusto7666@gmail.com"}/>
+                            <RedesBotaao IconComponent={FaWhatsapp} url={"https://wa.me/+5589988083671"}/>
+                            <RedesBotaao IconComponent={MdOutlineEmail} url={"mailto: augusto7666@gmail.com"}/>
                             <RedesBotaao IconComponent={FaGithub} url={"https://github.com/AugustoAlmondes"}/>
                             <RedesBotaao IconComponent={FaLinkedin} url={"https://www.linkedin.com/in/augusto-almondes-812196231/"}/>
                             <RedesBotaao IconComponent={FaInstagram} url={"https://www.instagram.com/augusto_almondes/"}/>

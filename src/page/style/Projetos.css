@@ -27,3 +27,13 @@
     place-items: center;
     grid-template-columns: repeat(auto-fill, minmax(300px, 25%));
 }
+
+@media screen and (max-width: 400px) {
+    .projetos
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+}
