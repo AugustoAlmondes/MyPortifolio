@@ -1,4 +1,5 @@
 import './style/Projetos.css'
+// import Repositorios from '../../repos.json'
 import { FaGithub } from 'react-icons/fa';
 import Projeto from '../components/Projeto.jsx'
 import { useEffect, useState } from 'react';
@@ -17,6 +18,7 @@ export default function Projetos() {
     async function buscarDados() {
 
         let resposta = await fetch('https://api.github.com/users/AugustoAlmondes/repos')
+        // let resposta = await fetch(Repositorios)
         let variaveis = await resposta.json();
 
         let repositorioFull = await Promise.all(
