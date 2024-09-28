@@ -55,7 +55,7 @@ export default function Projetos() {
                 <div className="container-projetos">
 
                     {/* COMPONENTE DE TESTE */}
-                    <Projeto nome='CEP-Search-React' linguagem={['JavaScript', 'HTML', 'CSS']} link='https://github.com/AugustoAlmondes/CEP-Search-React' />
+                    {/* <Projeto nome='CEP-Search-React' linguagem={['JavaScript', 'HTML', 'CSS']} link='https://github.com/AugustoAlmondes/CEP-Search-React' /> */}
 
                     {
                         repositorios.map((repo, index) => (

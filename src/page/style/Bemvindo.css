@@ -73,6 +73,10 @@
 
 @media screen and (max-width: 600px) {
     
+    /* .bemvindo .conteudo{
+        padding: 10px;
+    } */
+
     .bemvindo .conteudo .avatar {
         /* transform: scale(.5); */
         display: none;
@@ -81,6 +85,13 @@
     .bemvindo .conteudo .container-text-conteudo .titulo-conteudo
     {
         text-align: center;
+        font-size: 15px;
+    }
+
+    .bemvindo .conteudo .container-text-conteudo .texto-conteudo
+    {
+        text-align: justify;
+        font-size: 15px;
     }
     
     .redes-conteudo

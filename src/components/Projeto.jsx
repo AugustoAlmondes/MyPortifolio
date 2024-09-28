@@ -24,7 +24,6 @@ export default function Projeto({ nome, linguagem, link }) {
                             <li>Nenhuma Linguagem fornecida</li>
                         )}
                     </div>
-
                 </div>
             </a>
         </>

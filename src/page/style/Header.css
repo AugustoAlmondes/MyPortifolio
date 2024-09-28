@@ -1,5 +1,6 @@
-.header{
+.header {
     display: flex;
+    width: 100%;
     min-height: 100px;
     flex-wrap: wrap;
     align-items: center;
@@ -9,7 +10,7 @@
     background: linear-gradient(0.25turn, #0f1725, #152647);
 }
 
-.header h3{
+.header h3 {
     margin: 5px;
     font-weight: 100;
     color: white;
@@ -19,13 +20,13 @@
     transition: .3s;
 }
 
-.header h3:hover{
+.header h3:hover {
     cursor: pointer;
     transform: scale(1.09);
 }
 
 @media screen and (max-width:600px) {
-    .header h3{
+    .header h3 {
         padding: 2px;
     }
 }

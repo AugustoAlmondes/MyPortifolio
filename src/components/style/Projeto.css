@@ -81,3 +81,9 @@
 .Jupyter::before {
     background-color: rgb(255, 157, 0);
 }
+
+@media screen and (max-width:700px) {
+    .projeto{
+        max-width: 250px ;
+    }
+}
