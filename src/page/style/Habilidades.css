@@ -1,0 +1,36 @@
+.habilidades
+{
+    padding: 80px;
+    min-height: 100vh;
+    /* background: radial-gradient(closet-side,red, #383d3e, #222729); */
+    background: radial-gradient(#2a2f30 , #171c1d 70%);
+}
+
+.titulo-habilidades
+{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 40px;
+    font-weight: 200;
+}
+
+.area-habilidades
+{
+    color: white;
+    /* display: grid;
+    place-content: center;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 500px)); */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+@media screen and (max-width: 450px){
+    .habilidades
+    {
+        padding: 20px;
+    }
+}
